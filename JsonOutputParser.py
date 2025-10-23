@@ -21,5 +21,5 @@ template = PromptTemplate(
 
 chain = template | model | parser
 
-result = chain.invoke({'topic':'llm poisoning'})
+result = chain.invoke({'topic':'under eye puffiness'})
 print(result)
